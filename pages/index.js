@@ -1,14 +1,14 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Whatsapp</title>
       </Head>
-      <h1>Lets build Whatsapp</h1>
+      <Sidebar />
     </div>
   );
 }
